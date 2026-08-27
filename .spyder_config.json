@@ -1,0 +1,9 @@
+{
+    "audio_bitrate": "320",
+    "default_video": "1080p",
+    "network_unit": "Mbps",
+    "ping_server": "Cloudflare (1.1.1.1)",
+    "web_timeout": "8",
+    "port_speed": "Balanced (0.4s)",
+    "vault_delete": "No"
+}

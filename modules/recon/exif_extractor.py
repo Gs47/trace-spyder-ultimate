@@ -1,0 +1,1 @@
+print("EXIF metadata extractor ready.")

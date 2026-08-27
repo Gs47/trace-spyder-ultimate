@@ -1,0 +1,1 @@
+print("Battery inspector ready.")

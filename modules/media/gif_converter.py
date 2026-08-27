@@ -1,0 +1,1 @@
+print("GIF Converter Tool ready.")

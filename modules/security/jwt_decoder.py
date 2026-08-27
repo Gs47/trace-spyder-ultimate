@@ -1,0 +1,1 @@
+print("JWT Decoder ready.")

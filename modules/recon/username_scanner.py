@@ -1,0 +1,1 @@
+print("Username scanner ready.")

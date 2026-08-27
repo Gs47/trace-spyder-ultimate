@@ -1,0 +1,1 @@
+print("Temporary Mail generator ready.")

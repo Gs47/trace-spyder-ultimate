@@ -1,0 +1,8 @@
+# Trace Spyder Recorded Cache & Internet Junk Paths
+/data/data/com.termux/files/home/.cache
+/data/data/com.termux/files/home/../usr/tmp
+/sdcard/DCIM/.thumbnails
+/sdcard/Pictures/.thumbnails
+/sdcard/Android/data/com.android.chrome/cache
+/sdcard/Android/data/org.mozilla.firefox/cache
+/sdcard/Download/Torrents/tmp
