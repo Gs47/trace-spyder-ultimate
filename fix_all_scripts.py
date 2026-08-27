@@ -24,7 +24,7 @@ scripts = {
 "tools.py": '''import os, sys
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         🤖 TELEGRAM TOOLS & BOT MANAGER         ")
         print("="*52)
@@ -44,7 +44,7 @@ if __name__ == "__main__": main()
 "media_dl.py": '''import os, sys, subprocess
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("      🎬 ULTIMATE MEDIA DOWNLOADER (YT/IG/FB)     ")
         print("="*52)
@@ -61,7 +61,7 @@ if __name__ == "__main__": main()
 "spotify_dl.py": '''import os, sys, subprocess
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         🎵 SPOTIFY MUSIC DOWNLOADER HUB         ")
         print("="*52)
@@ -78,7 +78,7 @@ if __name__ == "__main__": main()
 "terabox_dl.py": '''import os, sys
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         📦 TERABOX FAST DOWNLOADER HUB          ")
         print("="*52)
@@ -94,7 +94,7 @@ if __name__ == "__main__": main()
 "converter.py": '''import os, sys
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("        🔄 DOCUMENT & MEDIA CONVERTER ENGINE      ")
         print("="*52)
@@ -114,7 +114,7 @@ if __name__ == "__main__": main()
 "seeker_hub.py": '''import os, sys
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         🔍 SEEKER OSINT LOCATION EXPLORER       ")
         print("="*52)
@@ -133,7 +133,7 @@ if __name__ == "__main__": main()
 "settings.py": '''import os, sys, subprocess
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("            ⚙️ HUB SETTINGS & REPAIR TOOL         ")
         print("="*52)

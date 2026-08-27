@@ -97,7 +97,7 @@ def read_unread_emails(sender, app_pw):
         print(f"{C_RED}❌ മെയിലുകൾ പരിശോധിക്കാൻ കഴിഞ്ഞില്ല: {e}{C_RESET}")
 
 def main():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(f"{C_CYAN}┌────────────────────────────────────────────────────┐{C_RESET}")
     print(f"{C_WHITE}        📧 TRACE SPYDER - GMAIL AUTOMATION          {C_RESET}")
     print(f"{C_CYAN}└────────────────────────────────────────────────────┘{C_RESET}")

@@ -13,7 +13,7 @@ BANNER = r"""
 """
 
 def clear_screen():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(BANNER)
     print(f"\033[1;35m  [▸] ACTIVE MODULE : \033[1;32mSPOTIFY MUSIC DOWNLOADER\033[0m")
     print("\033[1;36m" + "─"*64 + "\033[0m")

@@ -31,7 +31,7 @@ C_RESET = "\033[0m"
 KEY_FILE = os.path.expanduser("~/.gemini_api_key.txt")
 
 def print_header():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(f"{C_CYAN}┌────────────────────────────────────────────────────┐{C_RESET}")
     print(f"{C_WHITE}      🤖 GEMINI AUTOMATED DIAGNOSTIC ENGINE        {C_RESET}")
     print(f"{C_YELLOW}           Trace Spyder System Integrity           {C_RESET}")

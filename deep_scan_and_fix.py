@@ -38,7 +38,7 @@ ALL_FILES = [
 ]
 
 def scan_and_report():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(f"{C_CYAN}┌────────────────────────────────────────────────────┐{C_RESET}")
     print(f"{C_WHITE}      🔍 TRACE SPYDER - ERROR DETECTOR & SCANNER    {C_RESET}")
     print(f"{C_CYAN}└────────────────────────────────────────────────────┘{C_RESET}\n")

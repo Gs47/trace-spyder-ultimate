@@ -61,7 +61,7 @@ C_RESET = "\\033[0m"
 BANNER = """{BANNER}"""
 
 def clear_screen():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(BANNER)
     print(f"{{C_MAGENTA}}  [▸] ACTIVE MODULE : {{C_GREEN}}{title}{{C_RESET}}")
     print(f"{{C_CYAN}}─"*60 + f"{{C_RESET}}")

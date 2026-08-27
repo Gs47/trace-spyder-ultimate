@@ -39,7 +39,7 @@ def wrap_script(title, body):
 BANNER = r"""{BANNER}"""
 
 def clear_screen():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(BANNER)
     print(f"\\033[1;35m  [▸] ACTIVE MODULE : \\033[1;92m{title}\\033[0m")
     print("\\033[1;36m" + "─"*62 + "\\033[0m")

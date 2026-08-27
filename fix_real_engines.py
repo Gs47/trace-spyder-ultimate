@@ -64,7 +64,7 @@ def get_battery():
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("      📱 DEVICE & BATTERY REAL-TIME STATUS       ")
         print("="*52)
@@ -114,7 +114,7 @@ media_dl_code = '''import os, sys, subprocess
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("      🎬 ULTIMATE MEDIA DOWNLOADER (YT/IG/FB)     ")
         print("="*52)

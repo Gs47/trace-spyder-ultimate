@@ -46,7 +46,7 @@ def scan_path(target):
     print(f"{C_GREEN}Done. Found {found} files from this path.{C_RESET}")
 
 def main():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(f"{C_CYAN}=== NIKON D5000 FORENSIC RECOVERY ENGINE ==={C_RESET}\n")
     print("1. Scan Entire Phone Internal Cache (Extract Gallery copies)")
     print("2. Enter Custom SD Card Path (e.g. /storage/62B3-1814)")

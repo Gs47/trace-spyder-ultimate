@@ -47,7 +47,7 @@ def get_battery():
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("      📱 DEVICE & BATTERY REAL-TIME STATUS       ")
         print("="*52)
@@ -129,7 +129,7 @@ def clean_termux_junk():
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("        TERMUX STORAGE & JUNK CLEANER ENGINE      ")
         print("="*52)
@@ -152,7 +152,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("      🎬 ULTIMATE MEDIA DOWNLOADER (YT/IG/FB)     ")
         print("="*52)
@@ -172,7 +172,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         🎵 SPOTIFY MUSIC DOWNLOADER HUB         ")
         print("="*52)
@@ -192,7 +192,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         📦 TERABOX FAST DOWNLOADER HUB          ")
         print("="*52)
@@ -211,7 +211,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("        🔄 DOCUMENT & MEDIA CONVERTER ENGINE      ")
         print("="*52)
@@ -240,7 +240,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         🤖 TELEGRAM TOOLS & BOT MANAGER         ")
         print("="*52)
@@ -261,7 +261,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("         🔍 SEEKER OSINT LOCATION EXPLORER       ")
         print("="*52)
@@ -282,7 +282,7 @@ if __name__ == "__main__": main()
 
 def main():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("            ⚙️ HUB SETTINGS & REPAIR TOOL         ")
         print("="*52)
@@ -313,7 +313,7 @@ def run_script(script_name):
 
 def main_menu():
     while True:
-        os.system('clear')
+        os.system('cls' if os.name=='nt' else 'clear')
         print("="*52)
         print("       ⚡ ALL-IN-ONE TERMUX AUTOMATION HUB ⚡      ")
         print("="*52)

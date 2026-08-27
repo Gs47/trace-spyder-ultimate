@@ -22,7 +22,7 @@ SESSIONS_FILE = os.path.expanduser("~/.spyder_ai_sessions.json")
 HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 
 def run_audit():
-    os.system('clear')
+    os.system('cls' if os.name=='nt' else 'clear')
     print(f"{C_CYAN}┌────────────────────────────────────────────────────────────┐{C_RESET}")
     print(f"{C_WHITE}   🤖 TRACE SPYDER AI FULL AUTOMATION & CONTINUATION AUDIT   {C_RESET}")
     print(f"{C_CYAN}└────────────────────────────────────────────────────────────┘{C_RESET}\n")
