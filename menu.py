@@ -261,3 +261,10 @@ if __name__ == "__main__":
         main()
     except:
         pass
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except:
+        pass
